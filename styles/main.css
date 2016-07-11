@@ -1,0 +1,126 @@
+/*COLORS: White:#FFFFFF Blue:#B8C7CD Green:#373832 Red:#804B4D Lt Brown:#A68A72 */
+
+
+* {
+box-sizing: border-box;
+font-family:serif;
+}
+
+header  {
+  background: #B17B5A;
+  color:#593122
+}
+
+#brandName {
+  float:left;
+  display:inline-block;
+  color:#96A65D;
+  margin-left: 5%;
+}
+
+#brandName p {
+  font-family: cursive;
+}
+
+nav {
+  float:right;
+  margin: 2em 5% 0;
+  padding:.25em .25em 0;
+}
+
+.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    display:inline-block;
+    color:#373832;
+    background-color: #804B4D;
+}
+nav a  {
+  text-decoration: none;
+  color:#96A65D
+  border:solid #1C3D59 2px;
+  background-color: #B17B5A;
+  border-radius: 3px;
+  padding:0 1em;
+}
+
+img {
+  display:inline-block;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+#rightImage  {
+  display:inline-block;
+  float:right;
+  max-height:50vh;
+  width: auto;
+  margin-right:5%;
+}
+
+#leftImage {
+  display:inline-block;
+  float:left;
+  max-height:50vh;
+  width: auto;
+  margin-left: 5%;
+}
+article {
+  color:#593122;
+}
+
+h2  {
+  font-size: 1.5rem;
+  font-family: Times;
+}
+.articleImage {
+  height: 8vh;
+  width: 8vh;
+  border:solid #979797 .1rem;
+  display: inline-block;
+}
+
+article a  {
+  text-decoration: none;
+  color:#96A65D;
+  float: right;
+}
+
+#leftArticle  {
+  float:left;
+  margin-left: 5%;
+  display:inline-block;
+  width:27%;
+}
+
+#middleArticle {
+  float:left;
+  display: inline-block;
+  margin-left: 4.5%;
+  width:27%;
+}
+
+#rightArticle {
+  float:right;
+  margin-right: 5%;
+  display: inline-block;
+  width:27%;
+}
+
+article p {
+  display:inline-block;;
+  float:right;
+  text-align: justify;
+}
+
+footer  {
+  clear:both;
+  background-color: #B17B5A;
+  color:#593122;
+  height: 4rem;
+}
+cite  {
+  margin-left: 5%;
+}
