@@ -1,6 +1,5 @@
 /*COLORS: White:#FFFFFF Blue:#B8C7CD Green:#373832 Red:#804B4D Lt Brown:#A68A72 */
 
-
 * {
 box-sizing: border-box;
 font-family:serif;
@@ -31,18 +30,16 @@ nav {
 .button {
     -webkit-appearance: button;
     -moz-appearance: button;
-    appearance: button;
-
     display:inline-block;
     color:#373832;
     background-color: #804B4D;
 }
 nav a  {
   text-decoration: none;
-  color:#96A65D
-  border:solid #1C3D59 2px;
+  color:#96A65D;
+  border: 2px solid #1C3D59;
   background-color: #B17B5A;
-  border-radius: 3px;
+  border-radius:3px;
   padding:0 1em;
 }
 
