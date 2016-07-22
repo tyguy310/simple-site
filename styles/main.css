@@ -7,17 +7,17 @@ font-family:serif;
 
 header  {
   background: #B17B5A;
-  color:#593122
+  color:#593122;
+  border-radius: 5px;
+  /*border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;*/
 }
 
 #brandName {
   float:left;
   display:inline-block;
-  color:#96A65D;
+  color:#B8C7CD;
   margin-left: 5%;
-}
-
-#brandName p {
   font-family: cursive;
 }
 
@@ -47,30 +47,38 @@ img {
   display:inline-block;
   margin: 1rem 0;
   border-radius: 5px;
+  max-height:50vh;
+  width: auto;
+  display:inline-block;
+
 }
 
 #rightImage  {
-  display:inline-block;
   float:right;
-  max-height:50vh;
-  width: auto;
   margin-right:5%;
 }
 
 #leftImage {
-  display:inline-block;
   float:left;
-  max-height:50vh;
-  width: auto;
   margin-left: 5%;
 }
+
+.events {
+  clear: both;
+}
+
 article {
   color:#593122;
+  background-color:#B8C7CD;
+  border-radius: 5px;
+  display:inline-block;
 }
 
 h2  {
   font-size: 1.5rem;
   font-family: Times;
+  background-color: #A68A72;
+  text-align: center;
 }
 .articleImage {
   height: 8vh;
@@ -88,13 +96,11 @@ article a  {
 #leftArticle  {
   float:left;
   margin-left: 5%;
-  display:inline-block;
   width:27%;
 }
 
 #middleArticle {
   float:left;
-  display: inline-block;
   margin-left: 4.5%;
   width:27%;
 }
@@ -102,12 +108,11 @@ article a  {
 #rightArticle {
   float:right;
   margin-right: 5%;
-  display: inline-block;
   width:27%;
 }
 
 article p {
-  display:inline-block;;
+  display:block;
   float:right;
   text-align: justify;
 }
